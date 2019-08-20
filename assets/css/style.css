@@ -1,0 +1,60 @@
+
+body {
+background-image: url("../images/background-mobile.jpg");
+background-size: 100%;
+background-repeat: repeat-y;
+z-index: -100;
+}
+
+#content {
+    margin-top: 30px;
+
+}
+
+#gifs-here {
+    width: fit-content;
+}
+
+
+.animal-line {
+    margin-bottom: 10px;
+}
+
+#button-add {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;    
+    color: rgb(168, 2, 168);
+    text-shadow: 2px 2px black;
+}
+
+p {
+    color: rgb(168, 2, 168);
+    background-color: white;
+    border-radius: 25px;
+    width: fit-content;
+    text-shadow: 1px 1px black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 0px 10px 0px 10px;
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(168, 2, 168);
+}
+
+#add-animal, #rendered {
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+
+#rendered {
+    width: 19%;
+}
+
+@media (min-width: 992px) { 
+    body {
+    background-image: url("../images/background.jpg");
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,41 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gif Generator</title>
 </head>
 
 <body>
-    
+
     <div class="container">
 
         <div class="row">
 
+            <div class="col-md-12" id="buttons">
+
+            </div>
+
         </div>
 
-        <div class="row">
+        <div class="row" id="content">
 
             <div class="col-md-8">
+                <div class="row" id="gifs-here">
+
+                </div>
 
             </div>
 
             <div class="col-md-4">
+
+                
+                <form id="button-add">
+                    Add an animal
+                    <label for="adding-buttons"></label>
+                    <input type="text" class="form-control form-control-lg" id="add-buttons">
+                    <input type="submit" value="Submit" id="add-animal" class="btn btn-block btn-success btn-md">
+                </form>
 
             </div>
 
@@ -35,4 +52,5 @@
 
     <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>

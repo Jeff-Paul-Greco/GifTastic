@@ -18,7 +18,7 @@ function displayAnimals() {
 
         for (var i = 0; i < call.length; i++) {
 
-            var animalDiv = $("<div class='col-md-6 animal-line'>");
+            var animalDiv = $("<div>");
             var p = $("<p>").text("Rating: " + call[i].rating.toUpperCase());
             var animalGif = $("<img>");
             animalGif.addClass("gif");

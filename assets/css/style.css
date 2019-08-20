@@ -1,20 +1,22 @@
 
 body {
-background-image: url("../images/background-mobile.jpg");
-background-size: 100%;
-background-repeat: repeat-y;
+background-image: url("../images/background.jpg");
+background-repeat: repeat;
 z-index: -100;
+}
+
+.gif {
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 #content {
     margin-top: 30px;
-
 }
 
 #gifs-here {
     width: fit-content;
 }
-
 
 .animal-line {
     margin-bottom: 10px;
@@ -22,11 +24,15 @@ z-index: -100;
 
 #button-add {
     font-family: 'Permanent Marker', cursive;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bolder;
     text-align: center;    
     color: rgb(168, 2, 168);
     text-shadow: 2px 2px black;
+}
+
+.form-control {
+    margin-top: 10px;
 }
 
 p {
@@ -35,8 +41,6 @@ p {
     border-radius: 25px;
     width: fit-content;
     text-shadow: 1px 1px black;
-    font-family: 'Indie Flower', cursive;
-    font-size: 22px;
     font-weight: bolder;
     padding: 0px 10px 0px 10px;
     border-style: solid; 
@@ -44,17 +48,11 @@ p {
     border-color: rgb(168, 2, 168);
 }
 
-#add-animal, #rendered {
+#add-animal, #rendered, p {
     font-family: 'Indie Flower', cursive;
     font-size: 22px;
 }
 
 #rendered {
     width: 19%;
-}
-
-@media (min-width: 992px) { 
-    body {
-    background-image: url("../images/background.jpg");
-    }
 }

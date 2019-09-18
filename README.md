@@ -13,3 +13,5 @@ Clicking another animal button will load images of that animal above the previou
 You can even enter an animal you would like to see in the text box on the lefthand side of the screen. After entering your animal, hit submit and it will add a button with that animals name to the end of the list of buttons at the top of the screen.
 
 Have fun and enjoy the Gif Generator!
+
+Deployed Link: https://jeff-paul-greco.github.io/GifTastic
